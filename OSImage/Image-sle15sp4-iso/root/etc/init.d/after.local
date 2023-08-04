@@ -4,7 +4,7 @@ REGISTRATION_KEY=9-sles15sp4
 SALT_MINION_CONF_DIR="/etc/venv-salt-minion/minion.d"
 SALT_MINION_SERVICE="venv-salt-minion"
 SALT_MINION_DIR="/etc/venv-salt-minion"
-HOSTNAME_PREFIX=inditex
+HOSTNAME_PREFIX=sumabuilt
 
 
 curl -skS https://$SM_SERVER/pub/RHN-ORG-TRUSTED-SSL-CERT --output /etc/pki/trust/anchors/RHN-ORG-TRUSTED-SSL-CERT
