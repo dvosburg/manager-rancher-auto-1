@@ -16,7 +16,7 @@
         <keytable>us.map.gz</keytable>
         <timezone>America/Detroit</timezone>
         <rpm-excludedocs>true</rpm-excludedocs>
-	    <type image="oem" filesystem="xfs" kernelcmdline="console=ttyS0" firmware="uefi" installiso="true" bootpartition="false" installboot="install">
+	    <type image="oem" filesystem="xfs" kernelcmdline="console=ttyS0" firmware="efi" installiso="true" bootpartition="false" installboot="install">
             <bootloader name="grub2" console="serial" timeout="10"/>
             <oemconfig>
                 <oem-unattended>true</oem-unattended>
