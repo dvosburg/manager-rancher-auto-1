@@ -16,7 +16,8 @@
         <keytable>us.map.gz</keytable>
         <timezone>America/Detroit</timezone>
         <rpm-excludedocs>true</rpm-excludedocs>
-	    <type image="oem" filesystem="xfs" initrd_system="dracut" installiso="true" bootloader="grub2" kernelcmdline="splash" firmware="efi">
+	    <type image="oem" filesystem="xfs" firmware="uefi" installiso="true" bootpartition="true" installboot="install">
+            <bootloader name="grub2"/>
 	    <oemconfig>
                 <oem-unattended>true</oem-unattended>
                 <oem-swapsize>1024</oem-swapsize>
