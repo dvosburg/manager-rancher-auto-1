@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<image schemaversion="7.5" name="sle15-sp4-iso-dpv">
+<image schemaversion="7.5" name="phs-vmware-iso-dpv">
     <description type="system">
         <author>Don Vosburg</author>
         <contact>dvosburg@suse.com</contact>
