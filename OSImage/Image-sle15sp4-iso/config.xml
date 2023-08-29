@@ -7,7 +7,7 @@
         <specification>SUSE Linux Enterprise 15 SP4 ISO</specification>
     </description>
     <preferences>
-        <version>7.4.5</version>
+        <version>7.5.1</version>
         <packagemanager>zypper</packagemanager>
         <bootsplash-theme>SLE</bootsplash-theme>
         <bootloader-theme>SLE</bootloader-theme>
@@ -16,9 +16,8 @@
         <keytable>us.map.gz</keytable>
         <timezone>America/Detroit</timezone>
         <rpm-excludedocs>true</rpm-excludedocs>
-	    <type image="oem" filesystem="xfs" kernelcmdline="console=ttyS0" firmware="efi" installiso="true" bootpartition="false" installboot="install">
-            <bootloader name="grub2" console="serial" timeout="10"/>
-            <oemconfig>
+	    <type image="oem" filesystem="xfs" initrd_system="dracut" installiso="true" bootloader="grub2" kernelcmdline="splash" firmware="efi">
+	    <oemconfig>
                 <oem-unattended>true</oem-unattended>
                 <oem-swapsize>1024</oem-swapsize>
                 <oem-multipath-scan>false</oem-multipath-scan>
