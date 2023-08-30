@@ -83,6 +83,9 @@
 	<!-- K3s Register to Rancher requirements -->
 	<package name="jq"/>
 
+	<!-- vmware requirements -->
+	<package name="open-vm-tools"/>
+	
         <!-- Only for btrfs
         <package name="btrfsprogs"/>
         <package name="btrfsmaintenance"/>
