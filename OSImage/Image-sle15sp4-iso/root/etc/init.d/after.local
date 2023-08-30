@@ -1,6 +1,6 @@
 #!/bin/bash
-SM_SERVER=proxyall.susedemo.com
-REGISTRATION_KEY=9-sles15sp4
+SM_SERVER=suseapac-proxy.site.com
+REGISTRATION_KEY=4-15sp4-x86_64
 SALT_MINION_CONF_DIR="/etc/venv-salt-minion/minion.d"
 SALT_MINION_SERVICE="venv-salt-minion"
 SALT_MINION_DIR="/etc/venv-salt-minion"
